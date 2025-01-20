@@ -120,18 +120,14 @@ def handle_chat():
         if not message:
             return jsonify({'error': 'No message provided'}), 400
 
-        # Send message to Gemini
+        # Send message to Gemini and process the response
         response = chat.send_message(message)
-        
-        # Process response asynchronously
         result = async_to_sync(process_response)(response)
         
-        return jsonify({'response': result})
-
+        return jsonify({'user_message': message, 'response': result})  # Include user_message
     except Exception as e:
         print(f"Error in chat handler: {str(e)}")
         return jsonify({'error': str(e)}), 500
-
 def run_async_app():
     app.run(host='0.0.0.0', port=5000, debug=True, use_reloader=False)
 
