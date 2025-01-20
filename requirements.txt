@@ -1,0 +1,13 @@
+flask
+flask-cors
+gunicorn
+google-generativeai
+python-dotenv
+sqlalchemy
+pymysql
+langchain
+langchain-openai
+asgiref
+perplexity-client
+langchain-community 
+langgraph

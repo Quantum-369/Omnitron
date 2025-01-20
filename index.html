@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VOX Assistant</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="chat-container">
+        <!-- Header -->
+        <div class="chat-header">
+            <h1>Omnitron</h1>
+            <div class="header-controls">
+                <button id="themeToggle" title="Toggle Dark Mode">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <button id="clearChat" title="Clear Chat">
+                    <i class="fas fa-trash"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- Chat Area -->
+        <div class="chat-area" id="chatArea">
+            <div class="messages" id="chatMessages">
+                <!-- Message Template -->
+                <template id="messageTemplate">
+                    <div class="message">
+                        <div class="message-content"></div>
+                        <div class="message-meta">
+                            <span class="message-timestamp"></span>
+                            <button class="copy-btn" title="Copy message">
+                                <i class="fas fa-copy"></i>
+                            </button>
+                        </div>
+                    </div>
+                </template>
+            </div>
+        </div>
+
+        <!-- Input Section -->
+        <div class="input-section">
+            <div class="input-container">
+                <textarea 
+                    id="messageInput" 
+                    placeholder="Ask a question..."
+                    rows="1"
+                ></textarea>
+                <button id="sendButton" class="send-button" title="Send Message">
+                    <i class="fas fa-paper-plane"></i>
+                    <span class="loading-spinner hidden"></span>
+                </button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

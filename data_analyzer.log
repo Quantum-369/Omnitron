@@ -1,0 +1,535 @@
+2025-01-08 14:11:44,340 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-08 14:11:45,245 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-08 14:11:46,404 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-08 14:11:47,236 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-08 16:59:01,609 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-08 16:59:35,872 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-08 16:59:36,605 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-08 16:59:37,727 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-08 16:59:40,693 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-08 17:00:41,761 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-08 17:00:47,638 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-08 17:00:53,145 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-08 17:01:43,082 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-09 11:27:10,667 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.12:5000
+2025-01-09 11:27:10,668 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-09 11:27:23,632 - INFO - 127.0.0.1 - - [09/Jan/2025 11:27:23] "[33mGET / HTTP/1.1[0m" 404 -
+2025-01-09 11:27:24,601 - INFO - 127.0.0.1 - - [09/Jan/2025 11:27:24] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-01-09 11:28:36,487 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.12:5000
+2025-01-09 11:28:36,488 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-09 11:28:46,507 - INFO - 127.0.0.1 - - [09/Jan/2025 11:28:46] "GET / HTTP/1.1" 200 -
+2025-01-09 11:28:46,596 - INFO - 127.0.0.1 - - [09/Jan/2025 11:28:46] "GET /style.css HTTP/1.1" 200 -
+2025-01-09 11:28:46,710 - INFO - 127.0.0.1 - - [09/Jan/2025 11:28:46] "GET /script.js HTTP/1.1" 200 -
+2025-01-09 11:28:47,057 - INFO - 127.0.0.1 - - [09/Jan/2025 11:28:47] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-01-09 11:28:51,333 - INFO - 127.0.0.1 - - [09/Jan/2025 11:28:51] "OPTIONS /chat HTTP/1.1" 200 -
+2025-01-09 11:29:12,977 - INFO - 127.0.0.1 - - [09/Jan/2025 11:29:12] "[36mGET / HTTP/1.1[0m" 304 -
+2025-01-09 11:29:13,040 - INFO - 127.0.0.1 - - [09/Jan/2025 11:29:13] "[36mGET /style.css HTTP/1.1[0m" 304 -
+2025-01-09 11:29:13,051 - INFO - 127.0.0.1 - - [09/Jan/2025 11:29:13] "[36mGET /script.js HTTP/1.1[0m" 304 -
+2025-01-09 11:29:17,921 - INFO - 127.0.0.1 - - [09/Jan/2025 11:29:17] "OPTIONS /chat HTTP/1.1" 200 -
+2025-01-09 11:29:21,605 - INFO - 127.0.0.1 - - [09/Jan/2025 11:29:21] "[35m[1mPOST /chat HTTP/1.1[0m" 504 -
+2025-01-09 11:29:48,197 - INFO - 127.0.0.1 - - [09/Jan/2025 11:29:48] "[35m[1mPOST /chat HTTP/1.1[0m" 504 -
+2025-01-09 11:29:48,339 - INFO - 127.0.0.1 - - [09/Jan/2025 11:29:48] "[36mGET / HTTP/1.1[0m" 304 -
+2025-01-09 11:29:48,421 - INFO - 127.0.0.1 - - [09/Jan/2025 11:29:48] "[36mGET /style.css HTTP/1.1[0m" 304 -
+2025-01-09 11:29:48,437 - INFO - 127.0.0.1 - - [09/Jan/2025 11:29:48] "[36mGET /script.js HTTP/1.1[0m" 304 -
+2025-01-09 11:29:52,516 - INFO - 127.0.0.1 - - [09/Jan/2025 11:29:52] "OPTIONS /chat HTTP/1.1" 200 -
+2025-01-09 11:30:22,765 - INFO - 127.0.0.1 - - [09/Jan/2025 11:30:22] "[35m[1mPOST /chat HTTP/1.1[0m" 504 -
+2025-01-09 11:31:39,972 - INFO - 127.0.0.1 - - [09/Jan/2025 11:31:39] "[36mGET / HTTP/1.1[0m" 304 -
+2025-01-09 11:31:40,051 - INFO - 127.0.0.1 - - [09/Jan/2025 11:31:40] "[36mGET /style.css HTTP/1.1[0m" 304 -
+2025-01-09 11:31:40,064 - INFO - 127.0.0.1 - - [09/Jan/2025 11:31:40] "[36mGET /script.js HTTP/1.1[0m" 304 -
+2025-01-09 11:31:42,912 - INFO - 127.0.0.1 - - [09/Jan/2025 11:31:42] "OPTIONS /chat HTTP/1.1" 200 -
+2025-01-09 11:36:39,983 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.12:5000
+2025-01-09 11:36:39,984 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-09 11:36:39,987 - INFO -  * Restarting with stat
+2025-01-09 11:36:50,850 - WARNING -  * Debugger is active!
+2025-01-09 11:36:50,863 - INFO -  * Debugger PIN: 102-540-702
+2025-01-09 11:36:51,028 - INFO - 127.0.0.1 - - [09/Jan/2025 11:36:51] "[36mGET / HTTP/1.1[0m" 304 -
+2025-01-09 11:36:51,079 - INFO - 127.0.0.1 - - [09/Jan/2025 11:36:51] "[36mGET /style.css HTTP/1.1[0m" 304 -
+2025-01-09 11:36:51,098 - INFO - 127.0.0.1 - - [09/Jan/2025 11:36:51] "[36mGET /script.js HTTP/1.1[0m" 304 -
+2025-01-09 11:36:51,527 - INFO - 127.0.0.1 - - [09/Jan/2025 11:36:51] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-01-09 11:36:54,282 - INFO - 127.0.0.1 - - [09/Jan/2025 11:36:54] "[36mGET /style.css HTTP/1.1[0m" 304 -
+2025-01-09 11:36:58,855 - INFO - 127.0.0.1 - - [09/Jan/2025 11:36:58] "OPTIONS /chat HTTP/1.1" 200 -
+2025-01-09 11:36:59,906 - INFO - 127.0.0.1 - - [09/Jan/2025 11:36:59] "POST /chat HTTP/1.1" 200 -
+2025-01-09 11:37:04,746 - INFO - 127.0.0.1 - - [09/Jan/2025 11:37:04] "OPTIONS /chat HTTP/1.1" 200 -
+2025-01-09 11:37:05,840 - INFO - 127.0.0.1 - - [09/Jan/2025 11:37:05] "POST /chat HTTP/1.1" 200 -
+2025-01-09 11:37:18,319 - INFO - 127.0.0.1 - - [09/Jan/2025 11:37:18] "OPTIONS /chat HTTP/1.1" 200 -
+2025-01-09 11:37:20,083 - INFO - 127.0.0.1 - - [09/Jan/2025 11:37:20] "POST /chat HTTP/1.1" 200 -
+2025-01-09 11:37:43,226 - INFO - 127.0.0.1 - - [09/Jan/2025 11:37:43] "OPTIONS /chat HTTP/1.1" 200 -
+2025-01-09 11:37:44,290 - INFO - 127.0.0.1 - - [09/Jan/2025 11:37:44] "POST /chat HTTP/1.1" 200 -
+2025-01-09 11:38:01,161 - INFO - 127.0.0.1 - - [09/Jan/2025 11:38:01] "OPTIONS /chat HTTP/1.1" 200 -
+2025-01-09 11:38:02,273 - INFO - 127.0.0.1 - - [09/Jan/2025 11:38:02] "POST /chat HTTP/1.1" 200 -
+2025-01-09 11:38:06,979 - INFO - 127.0.0.1 - - [09/Jan/2025 11:38:06] "OPTIONS /chat HTTP/1.1" 200 -
+2025-01-09 11:38:08,206 - INFO - 127.0.0.1 - - [09/Jan/2025 11:38:08] "POST /chat HTTP/1.1" 200 -
+2025-01-09 11:38:24,486 - INFO - 127.0.0.1 - - [09/Jan/2025 11:38:24] "OPTIONS /chat HTTP/1.1" 200 -
+2025-01-09 11:38:25,636 - INFO - 127.0.0.1 - - [09/Jan/2025 11:38:25] "POST /chat HTTP/1.1" 200 -
+2025-01-09 11:38:42,052 - INFO - 127.0.0.1 - - [09/Jan/2025 11:38:42] "OPTIONS /chat HTTP/1.1" 200 -
+2025-01-09 11:38:45,031 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-09 11:38:48,548 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-09 11:38:52,053 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-09 11:38:54,064 - INFO - 127.0.0.1 - - [09/Jan/2025 11:38:54] "POST /chat HTTP/1.1" 200 -
+2025-01-09 11:40:01,140 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-09 11:56:40,837 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.12:5000
+2025-01-09 11:56:40,839 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-09 11:56:50,277 - INFO - 127.0.0.1 - - [09/Jan/2025 11:56:50] "[36mGET / HTTP/1.1[0m" 304 -
+2025-01-09 11:56:50,795 - INFO - 127.0.0.1 - - [09/Jan/2025 11:56:50] "[36mGET /style.css HTTP/1.1[0m" 304 -
+2025-01-09 11:56:51,052 - INFO - 127.0.0.1 - - [09/Jan/2025 11:56:51] "GET /script.js HTTP/1.1" 200 -
+2025-01-09 11:56:51,754 - INFO - 127.0.0.1 - - [09/Jan/2025 11:56:51] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-01-09 11:57:02,281 - INFO - 127.0.0.1 - - [09/Jan/2025 11:57:02] "OPTIONS /chat HTTP/1.1" 200 -
+2025-01-09 11:57:03,689 - INFO - 127.0.0.1 - - [09/Jan/2025 11:57:03] "POST /chat HTTP/1.1" 200 -
+2025-01-09 11:58:46,697 - INFO - 127.0.0.1 - - [09/Jan/2025 11:58:46] "OPTIONS /chat HTTP/1.1" 200 -
+2025-01-09 11:58:52,020 - INFO - 127.0.0.1 - - [09/Jan/2025 11:58:52] "POST /chat HTTP/1.1" 200 -
+2025-01-09 11:59:06,818 - INFO - 127.0.0.1 - - [09/Jan/2025 11:59:06] "OPTIONS /chat HTTP/1.1" 200 -
+2025-01-09 11:59:10,790 - INFO - 127.0.0.1 - - [09/Jan/2025 11:59:10] "POST /chat HTTP/1.1" 200 -
+2025-01-09 12:00:33,560 - INFO - 127.0.0.1 - - [09/Jan/2025 12:00:33] "OPTIONS /chat HTTP/1.1" 200 -
+2025-01-09 12:00:35,097 - INFO - 127.0.0.1 - - [09/Jan/2025 12:00:35] "POST /chat HTTP/1.1" 200 -
+2025-01-09 12:01:40,392 - INFO - 127.0.0.1 - - [09/Jan/2025 12:01:40] "OPTIONS /chat HTTP/1.1" 200 -
+2025-01-09 12:01:41,588 - INFO - 127.0.0.1 - - [09/Jan/2025 12:01:41] "POST /chat HTTP/1.1" 200 -
+2025-01-09 12:01:55,086 - INFO - 127.0.0.1 - - [09/Jan/2025 12:01:55] "OPTIONS /chat HTTP/1.1" 200 -
+2025-01-09 12:01:59,442 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-09 12:02:00,356 - INFO - 127.0.0.1 - - [09/Jan/2025 12:02:00] "POST /chat HTTP/1.1" 200 -
+2025-01-09 12:02:28,930 - INFO - 127.0.0.1 - - [09/Jan/2025 12:02:28] "OPTIONS /chat HTTP/1.1" 200 -
+2025-01-09 12:02:31,594 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-09 12:02:32,825 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-09 12:02:34,050 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-09 12:02:35,140 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-09 12:02:36,205 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-09 12:02:37,945 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-09 12:02:39,172 - INFO - 127.0.0.1 - - [09/Jan/2025 12:02:39] "POST /chat HTTP/1.1" 200 -
+2025-01-09 12:02:54,253 - INFO - 127.0.0.1 - - [09/Jan/2025 12:02:54] "OPTIONS /chat HTTP/1.1" 200 -
+2025-01-09 12:02:56,864 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-09 12:02:58,214 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-09 12:03:00,128 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-09 12:03:01,595 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-09 12:03:03,746 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-09 12:03:05,486 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-09 12:03:06,570 - INFO - 127.0.0.1 - - [09/Jan/2025 12:03:06] "POST /chat HTTP/1.1" 200 -
+2025-01-09 12:03:31,116 - INFO - 127.0.0.1 - - [09/Jan/2025 12:03:31] "OPTIONS /chat HTTP/1.1" 200 -
+2025-01-09 12:03:38,461 - INFO - 127.0.0.1 - - [09/Jan/2025 12:03:38] "POST /chat HTTP/1.1" 200 -
+2025-01-09 12:04:03,557 - INFO - 127.0.0.1 - - [09/Jan/2025 12:04:03] "OPTIONS /chat HTTP/1.1" 200 -
+2025-01-09 12:04:04,440 - INFO - 127.0.0.1 - - [09/Jan/2025 12:04:04] "POST /chat HTTP/1.1" 200 -
+2025-01-09 12:04:24,859 - INFO - 127.0.0.1 - - [09/Jan/2025 12:04:24] "OPTIONS /chat HTTP/1.1" 200 -
+2025-01-09 12:04:25,926 - INFO - 127.0.0.1 - - [09/Jan/2025 12:04:25] "POST /chat HTTP/1.1" 200 -
+2025-01-09 12:04:36,693 - INFO - 127.0.0.1 - - [09/Jan/2025 12:04:36] "OPTIONS /chat HTTP/1.1" 200 -
+2025-01-09 12:04:38,664 - INFO - 127.0.0.1 - - [09/Jan/2025 12:04:38] "POST /chat HTTP/1.1" 200 -
+2025-01-09 12:06:36,829 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.12:5000
+2025-01-09 12:06:36,830 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-09 12:06:40,299 - INFO - 127.0.0.1 - - [09/Jan/2025 12:06:40] "GET / HTTP/1.1" 200 -
+2025-01-09 12:06:40,540 - INFO - 127.0.0.1 - - [09/Jan/2025 12:06:40] "[33mGET /style.css HTTP/1.1[0m" 404 -
+2025-01-09 12:06:40,543 - INFO - 127.0.0.1 - - [09/Jan/2025 12:06:40] "GET /script.js HTTP/1.1" 200 -
+2025-01-09 12:06:41,227 - INFO - 127.0.0.1 - - [09/Jan/2025 12:06:41] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-01-09 12:06:49,499 - INFO - 127.0.0.1 - - [09/Jan/2025 12:06:49] "[36mGET / HTTP/1.1[0m" 304 -
+2025-01-09 12:06:49,575 - INFO - 127.0.0.1 - - [09/Jan/2025 12:06:49] "[33mGET /style.css HTTP/1.1[0m" 404 -
+2025-01-09 12:06:49,583 - INFO - 127.0.0.1 - - [09/Jan/2025 12:06:49] "[36mGET /script.js HTTP/1.1[0m" 304 -
+2025-01-09 12:06:55,369 - INFO - 127.0.0.1 - - [09/Jan/2025 12:06:55] "OPTIONS /chat HTTP/1.1" 200 -
+2025-01-09 12:06:56,437 - INFO - 127.0.0.1 - - [09/Jan/2025 12:06:56] "POST /chat HTTP/1.1" 200 -
+2025-01-09 12:07:20,166 - INFO - 127.0.0.1 - - [09/Jan/2025 12:07:20] "[36mGET / HTTP/1.1[0m" 304 -
+2025-01-09 12:07:20,294 - INFO - 127.0.0.1 - - [09/Jan/2025 12:07:20] "GET /style.css HTTP/1.1" 200 -
+2025-01-09 12:07:20,295 - INFO - 127.0.0.1 - - [09/Jan/2025 12:07:20] "[36mGET /script.js HTTP/1.1[0m" 304 -
+2025-01-09 12:07:20,677 - INFO - 127.0.0.1 - - [09/Jan/2025 12:07:20] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-01-09 12:07:27,594 - INFO - 127.0.0.1 - - [09/Jan/2025 12:07:27] "OPTIONS /chat HTTP/1.1" 200 -
+2025-01-09 12:07:28,318 - INFO - 127.0.0.1 - - [09/Jan/2025 12:07:28] "POST /chat HTTP/1.1" 200 -
+2025-01-09 12:07:44,916 - INFO - 127.0.0.1 - - [09/Jan/2025 12:07:44] "OPTIONS /chat HTTP/1.1" 200 -
+2025-01-09 12:07:55,690 - INFO - 127.0.0.1 - - [09/Jan/2025 12:07:55] "POST /chat HTTP/1.1" 200 -
+2025-01-09 12:15:48,896 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.12:5000
+2025-01-09 12:15:48,899 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-09 12:16:01,717 - INFO - 127.0.0.1 - - [09/Jan/2025 12:16:01] "OPTIONS /chat HTTP/1.1" 200 -
+2025-01-09 12:16:02,798 - INFO - 127.0.0.1 - - [09/Jan/2025 12:16:02] "POST /chat HTTP/1.1" 200 -
+2025-01-09 12:16:30,803 - INFO - 127.0.0.1 - - [09/Jan/2025 12:16:30] "OPTIONS /chat HTTP/1.1" 200 -
+2025-01-09 12:16:36,780 - INFO - 127.0.0.1 - - [09/Jan/2025 12:16:36] "POST /chat HTTP/1.1" 200 -
+2025-01-09 12:17:25,489 - INFO - 127.0.0.1 - - [09/Jan/2025 12:17:25] "OPTIONS /chat HTTP/1.1" 200 -
+2025-01-09 12:17:26,470 - INFO - 127.0.0.1 - - [09/Jan/2025 12:17:26] "POST /chat HTTP/1.1" 200 -
+2025-01-09 12:17:50,191 - INFO - 127.0.0.1 - - [09/Jan/2025 12:17:50] "OPTIONS /chat HTTP/1.1" 200 -
+2025-01-09 12:17:51,110 - INFO - 127.0.0.1 - - [09/Jan/2025 12:17:51] "POST /chat HTTP/1.1" 200 -
+2025-01-09 12:18:04,198 - INFO - 127.0.0.1 - - [09/Jan/2025 12:18:04] "OPTIONS /chat HTTP/1.1" 200 -
+2025-01-09 12:18:05,207 - INFO - 127.0.0.1 - - [09/Jan/2025 12:18:05] "POST /chat HTTP/1.1" 200 -
+2025-01-09 12:18:13,054 - INFO - 127.0.0.1 - - [09/Jan/2025 12:18:13] "OPTIONS /chat HTTP/1.1" 200 -
+2025-01-09 12:18:15,422 - INFO - 127.0.0.1 - - [09/Jan/2025 12:18:15] "POST /chat HTTP/1.1" 200 -
+2025-01-09 12:19:05,373 - INFO - 127.0.0.1 - - [09/Jan/2025 12:19:05] "OPTIONS /chat HTTP/1.1" 200 -
+2025-01-09 12:19:06,459 - INFO - 127.0.0.1 - - [09/Jan/2025 12:19:06] "POST /chat HTTP/1.1" 200 -
+2025-01-09 12:19:10,873 - INFO - 127.0.0.1 - - [09/Jan/2025 12:19:10] "OPTIONS /chat HTTP/1.1" 200 -
+2025-01-09 12:19:13,595 - INFO - 127.0.0.1 - - [09/Jan/2025 12:19:13] "POST /chat HTTP/1.1" 200 -
+2025-01-09 13:06:59,080 - INFO - 127.0.0.1 - - [09/Jan/2025 13:06:59] "OPTIONS /chat HTTP/1.1" 200 -
+2025-01-09 13:07:00,272 - INFO - 127.0.0.1 - - [09/Jan/2025 13:07:00] "POST /chat HTTP/1.1" 200 -
+2025-01-09 13:08:23,854 - INFO - 127.0.0.1 - - [09/Jan/2025 13:08:23] "OPTIONS /chat HTTP/1.1" 200 -
+2025-01-09 13:08:24,826 - INFO - 127.0.0.1 - - [09/Jan/2025 13:08:24] "POST /chat HTTP/1.1" 200 -
+2025-01-09 13:08:31,136 - INFO - 127.0.0.1 - - [09/Jan/2025 13:08:31] "OPTIONS /chat HTTP/1.1" 200 -
+2025-01-09 13:08:32,093 - INFO - 127.0.0.1 - - [09/Jan/2025 13:08:32] "POST /chat HTTP/1.1" 200 -
+2025-01-09 13:26:37,833 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.12:5000
+2025-01-09 13:26:37,834 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-09 13:26:42,088 - INFO - 127.0.0.1 - - [09/Jan/2025 13:26:42] "OPTIONS /chat HTTP/1.1" 200 -
+2025-01-09 13:26:43,269 - INFO - 127.0.0.1 - - [09/Jan/2025 13:26:43] "POST /chat HTTP/1.1" 200 -
+2025-01-09 13:27:51,224 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.12:5000
+2025-01-09 13:27:51,225 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-09 13:28:02,656 - INFO - 127.0.0.1 - - [09/Jan/2025 13:28:02] "GET / HTTP/1.1" 200 -
+2025-01-09 13:28:02,991 - INFO - 127.0.0.1 - - [09/Jan/2025 13:28:02] "GET /style.css HTTP/1.1" 200 -
+2025-01-09 13:28:02,992 - INFO - 127.0.0.1 - - [09/Jan/2025 13:28:02] "GET /script.js HTTP/1.1" 200 -
+2025-01-09 13:28:03,486 - INFO - 127.0.0.1 - - [09/Jan/2025 13:28:03] "OPTIONS /chat HTTP/1.1" 200 -
+2025-01-09 13:28:03,653 - INFO - 127.0.0.1 - - [09/Jan/2025 13:28:03] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-01-09 13:28:07,633 - INFO - 127.0.0.1 - - [09/Jan/2025 13:28:07] "POST /chat HTTP/1.1" 200 -
+2025-01-09 13:28:17,774 - INFO - 127.0.0.1 - - [09/Jan/2025 13:28:17] "[36mGET / HTTP/1.1[0m" 304 -
+2025-01-09 13:28:17,857 - INFO - 127.0.0.1 - - [09/Jan/2025 13:28:17] "[36mGET /style.css HTTP/1.1[0m" 304 -
+2025-01-09 13:28:17,862 - INFO - 127.0.0.1 - - [09/Jan/2025 13:28:17] "[36mGET /script.js HTTP/1.1[0m" 304 -
+2025-01-09 13:28:18,243 - INFO - 127.0.0.1 - - [09/Jan/2025 13:28:18] "OPTIONS /chat HTTP/1.1" 200 -
+2025-01-09 13:28:18,836 - INFO - 127.0.0.1 - - [09/Jan/2025 13:28:18] "POST /chat HTTP/1.1" 200 -
+2025-01-09 13:28:21,677 - INFO - 127.0.0.1 - - [09/Jan/2025 13:28:21] "POST /chat HTTP/1.1" 200 -
+2025-01-09 13:28:29,468 - INFO - 127.0.0.1 - - [09/Jan/2025 13:28:29] "OPTIONS /chat HTTP/1.1" 200 -
+2025-01-09 13:28:30,229 - INFO - 127.0.0.1 - - [09/Jan/2025 13:28:30] "POST /chat HTTP/1.1" 200 -
+2025-01-09 13:29:58,329 - INFO - 127.0.0.1 - - [09/Jan/2025 13:29:58] "[36mGET / HTTP/1.1[0m" 304 -
+2025-01-09 13:29:58,401 - INFO - 127.0.0.1 - - [09/Jan/2025 13:29:58] "[36mGET /script.js HTTP/1.1[0m" 304 -
+2025-01-09 13:29:58,415 - INFO - 127.0.0.1 - - [09/Jan/2025 13:29:58] "GET /style.css HTTP/1.1" 200 -
+2025-01-09 13:29:58,778 - INFO - 127.0.0.1 - - [09/Jan/2025 13:29:58] "OPTIONS /chat HTTP/1.1" 200 -
+2025-01-09 13:29:59,525 - INFO - 127.0.0.1 - - [09/Jan/2025 13:29:59] "POST /chat HTTP/1.1" 200 -
+2025-01-09 13:30:00,332 - INFO - 127.0.0.1 - - [09/Jan/2025 13:30:00] "[36mGET / HTTP/1.1[0m" 304 -
+2025-01-09 13:30:00,397 - INFO - 127.0.0.1 - - [09/Jan/2025 13:30:00] "[36mGET /style.css HTTP/1.1[0m" 304 -
+2025-01-09 13:30:00,410 - INFO - 127.0.0.1 - - [09/Jan/2025 13:30:00] "[36mGET /script.js HTTP/1.1[0m" 304 -
+2025-01-09 13:30:01,188 - INFO - 127.0.0.1 - - [09/Jan/2025 13:30:01] "POST /chat HTTP/1.1" 200 -
+2025-01-09 13:30:01,961 - INFO - 127.0.0.1 - - [09/Jan/2025 13:30:01] "[36mGET / HTTP/1.1[0m" 304 -
+2025-01-09 13:30:02,015 - INFO - 127.0.0.1 - - [09/Jan/2025 13:30:02] "[36mGET /style.css HTTP/1.1[0m" 304 -
+2025-01-09 13:30:02,028 - INFO - 127.0.0.1 - - [09/Jan/2025 13:30:02] "[36mGET /script.js HTTP/1.1[0m" 304 -
+2025-01-09 13:30:02,486 - INFO - 127.0.0.1 - - [09/Jan/2025 13:30:02] "POST /chat HTTP/1.1" 200 -
+2025-01-09 13:32:32,426 - INFO - 127.0.0.1 - - [09/Jan/2025 13:32:32] "[36mGET / HTTP/1.1[0m" 304 -
+2025-01-09 13:32:32,487 - INFO - 127.0.0.1 - - [09/Jan/2025 13:32:32] "[36mGET /script.js HTTP/1.1[0m" 304 -
+2025-01-09 13:32:32,509 - INFO - 127.0.0.1 - - [09/Jan/2025 13:32:32] "GET /style.css HTTP/1.1" 200 -
+2025-01-09 13:32:32,867 - INFO - 127.0.0.1 - - [09/Jan/2025 13:32:32] "OPTIONS /chat HTTP/1.1" 200 -
+2025-01-09 13:32:34,961 - INFO - 127.0.0.1 - - [09/Jan/2025 13:32:34] "POST /chat HTTP/1.1" 200 -
+2025-01-09 13:34:23,982 - INFO - 127.0.0.1 - - [09/Jan/2025 13:34:23] "GET / HTTP/1.1" 200 -
+2025-01-09 13:34:24,028 - INFO - 127.0.0.1 - - [09/Jan/2025 13:34:24] "[36mGET /style.css HTTP/1.1[0m" 304 -
+2025-01-09 13:34:24,041 - INFO - 127.0.0.1 - - [09/Jan/2025 13:34:24] "[36mGET /script.js HTTP/1.1[0m" 304 -
+2025-01-09 13:34:24,420 - INFO - 127.0.0.1 - - [09/Jan/2025 13:34:24] "OPTIONS /chat HTTP/1.1" 200 -
+2025-01-09 13:34:25,091 - INFO - 127.0.0.1 - - [09/Jan/2025 13:34:25] "POST /chat HTTP/1.1" 200 -
+2025-01-09 13:34:45,663 - INFO - 127.0.0.1 - - [09/Jan/2025 13:34:45] "[36mGET / HTTP/1.1[0m" 304 -
+2025-01-09 13:34:45,725 - INFO - 127.0.0.1 - - [09/Jan/2025 13:34:45] "GET /style.css HTTP/1.1" 200 -
+2025-01-09 13:34:45,734 - INFO - 127.0.0.1 - - [09/Jan/2025 13:34:45] "[36mGET /script.js HTTP/1.1[0m" 304 -
+2025-01-09 13:34:46,099 - INFO - 127.0.0.1 - - [09/Jan/2025 13:34:46] "OPTIONS /chat HTTP/1.1" 200 -
+2025-01-09 13:34:46,829 - INFO - 127.0.0.1 - - [09/Jan/2025 13:34:46] "POST /chat HTTP/1.1" 200 -
+2025-01-09 13:35:13,511 - INFO - 127.0.0.1 - - [09/Jan/2025 13:35:13] "OPTIONS /chat HTTP/1.1" 200 -
+2025-01-09 13:35:14,341 - INFO - 127.0.0.1 - - [09/Jan/2025 13:35:14] "POST /chat HTTP/1.1" 200 -
+2025-01-09 13:39:50,508 - INFO - 127.0.0.1 - - [09/Jan/2025 13:39:50] "GET / HTTP/1.1" 200 -
+2025-01-09 13:39:50,577 - INFO - 127.0.0.1 - - [09/Jan/2025 13:39:50] "[36mGET /style.css HTTP/1.1[0m" 304 -
+2025-01-09 13:39:50,598 - INFO - 127.0.0.1 - - [09/Jan/2025 13:39:50] "[36mGET /script.js HTTP/1.1[0m" 304 -
+2025-01-09 13:40:08,874 - INFO - 127.0.0.1 - - [09/Jan/2025 13:40:08] "[36mGET / HTTP/1.1[0m" 304 -
+2025-01-09 13:40:08,948 - INFO - 127.0.0.1 - - [09/Jan/2025 13:40:08] "[36mGET /script.js HTTP/1.1[0m" 304 -
+2025-01-09 13:40:08,954 - INFO - 127.0.0.1 - - [09/Jan/2025 13:40:08] "GET /style.css HTTP/1.1" 200 -
+2025-01-09 13:44:54,735 - INFO - 127.0.0.1 - - [09/Jan/2025 13:44:54] "[36mGET / HTTP/1.1[0m" 304 -
+2025-01-09 13:44:54,803 - INFO - 127.0.0.1 - - [09/Jan/2025 13:44:54] "[36mGET /style.css HTTP/1.1[0m" 304 -
+2025-01-09 13:44:54,819 - INFO - 127.0.0.1 - - [09/Jan/2025 13:44:54] "[36mGET /script.js HTTP/1.1[0m" 304 -
+2025-01-09 13:45:35,181 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.12:5000
+2025-01-09 13:45:35,181 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-09 13:45:38,651 - INFO - 127.0.0.1 - - [09/Jan/2025 13:45:38] "[36mGET / HTTP/1.1[0m" 304 -
+2025-01-09 13:45:38,938 - INFO - 127.0.0.1 - - [09/Jan/2025 13:45:38] "[36mGET /style.css HTTP/1.1[0m" 304 -
+2025-01-09 13:45:38,938 - INFO - 127.0.0.1 - - [09/Jan/2025 13:45:38] "[36mGET /script.js HTTP/1.1[0m" 304 -
+2025-01-09 13:45:39,402 - INFO - 127.0.0.1 - - [09/Jan/2025 13:45:39] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-01-09 13:47:50,315 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.12:5000
+2025-01-09 13:47:50,316 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-09 13:54:39,618 - INFO - 127.0.0.1 - - [09/Jan/2025 13:54:39] "[33mGET /health HTTP/1.1[0m" 404 -
+2025-01-09 13:54:57,706 - INFO - 127.0.0.1 - - [09/Jan/2025 13:54:57] "[33mGET /health HTTP/1.1[0m" 404 -
+2025-01-09 13:54:58,407 - INFO - 127.0.0.1 - - [09/Jan/2025 13:54:58] "[33mGET /health HTTP/1.1[0m" 404 -
+2025-01-09 13:55:05,657 - INFO - 127.0.0.1 - - [09/Jan/2025 13:55:05] "[33mGET /health HTTP/1.1[0m" 404 -
+2025-01-09 13:55:07,390 - INFO - 127.0.0.1 - - [09/Jan/2025 13:55:07] "[33mGET /health HTTP/1.1[0m" 404 -
+2025-01-09 13:55:30,107 - INFO - 127.0.0.1 - - [09/Jan/2025 13:55:30] "OPTIONS /chat HTTP/1.1" 200 -
+2025-01-09 13:55:31,290 - INFO - 127.0.0.1 - - [09/Jan/2025 13:55:31] "POST /chat HTTP/1.1" 200 -
+2025-01-09 13:55:57,386 - INFO - 127.0.0.1 - - [09/Jan/2025 13:55:57] "[31m[1mPOST /upload HTTP/1.1[0m" 405 -
+2025-01-09 14:00:12,051 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.12:5000
+2025-01-09 14:00:12,052 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-09 14:00:12,055 - INFO -  * Restarting with stat
+2025-01-09 14:00:20,903 - WARNING -  * Debugger is active!
+2025-01-09 14:00:20,918 - INFO -  * Debugger PIN: 102-540-702
+2025-01-09 14:00:22,036 - INFO - 127.0.0.1 - - [09/Jan/2025 14:00:22] "GET / HTTP/1.1" 200 -
+2025-01-09 14:00:22,090 - INFO - 127.0.0.1 - - [09/Jan/2025 14:00:22] "GET /style.css HTTP/1.1" 200 -
+2025-01-09 14:00:22,118 - INFO - 127.0.0.1 - - [09/Jan/2025 14:00:22] "GET /script.js HTTP/1.1" 200 -
+2025-01-09 14:00:22,599 - INFO - 127.0.0.1 - - [09/Jan/2025 14:00:22] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-01-09 14:02:50,091 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.12:5000
+2025-01-09 14:02:50,094 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-09 14:02:55,527 - INFO - 127.0.0.1 - - [09/Jan/2025 14:02:55] "[36mGET / HTTP/1.1[0m" 304 -
+2025-01-09 14:02:55,805 - INFO - 127.0.0.1 - - [09/Jan/2025 14:02:55] "[36mGET /style.css HTTP/1.1[0m" 304 -
+2025-01-09 14:02:55,867 - INFO - 127.0.0.1 - - [09/Jan/2025 14:02:55] "[36mGET /script.js HTTP/1.1[0m" 304 -
+2025-01-09 14:02:56,263 - INFO - 127.0.0.1 - - [09/Jan/2025 14:02:56] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-01-09 14:04:55,616 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.12:5000
+2025-01-09 14:04:55,617 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-09 14:04:59,691 - INFO - 127.0.0.1 - - [09/Jan/2025 14:04:59] "[36mGET / HTTP/1.1[0m" 304 -
+2025-01-09 14:04:59,962 - INFO - 127.0.0.1 - - [09/Jan/2025 14:04:59] "[36mGET /style.css HTTP/1.1[0m" 304 -
+2025-01-09 14:04:59,963 - INFO - 127.0.0.1 - - [09/Jan/2025 14:04:59] "[36mGET /script.js HTTP/1.1[0m" 304 -
+2025-01-09 14:05:00,450 - INFO - 127.0.0.1 - - [09/Jan/2025 14:05:00] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-01-09 14:05:13,563 - INFO - 127.0.0.1 - - [09/Jan/2025 14:05:13] "[36mGET /style.css HTTP/1.1[0m" 304 -
+2025-01-09 14:09:47,320 - INFO - 127.0.0.1 - - [09/Jan/2025 14:09:47] "GET / HTTP/1.1" 200 -
+2025-01-09 14:09:47,761 - INFO - 127.0.0.1 - - [09/Jan/2025 14:09:47] "[36mGET /script.js HTTP/1.1[0m" 304 -
+2025-01-09 14:09:47,835 - INFO - 127.0.0.1 - - [09/Jan/2025 14:09:47] "GET /style.css HTTP/1.1" 200 -
+2025-01-09 14:13:24,178 - INFO - 127.0.0.1 - - [09/Jan/2025 14:13:24] "[36mGET / HTTP/1.1[0m" 304 -
+2025-01-09 14:13:24,280 - INFO - 127.0.0.1 - - [09/Jan/2025 14:13:24] "[36mGET /style.css HTTP/1.1[0m" 304 -
+2025-01-09 14:13:24,452 - INFO - 127.0.0.1 - - [09/Jan/2025 14:13:24] "GET /script.js HTTP/1.1" 200 -
+2025-01-09 14:13:24,844 - INFO - 127.0.0.1 - - [09/Jan/2025 14:13:24] "GET /health HTTP/1.1" 200 -
+2025-01-09 14:13:28,919 - INFO - 127.0.0.1 - - [09/Jan/2025 14:13:28] "OPTIONS /chat HTTP/1.1" 200 -
+2025-01-09 14:13:30,065 - INFO - 127.0.0.1 - - [09/Jan/2025 14:13:30] "POST /chat HTTP/1.1" 200 -
+2025-01-09 14:13:39,747 - INFO - 127.0.0.1 - - [09/Jan/2025 14:13:39] "OPTIONS /chat HTTP/1.1" 200 -
+2025-01-09 14:13:40,654 - INFO - 127.0.0.1 - - [09/Jan/2025 14:13:40] "POST /chat HTTP/1.1" 200 -
+2025-01-09 14:13:46,285 - INFO - 127.0.0.1 - - [09/Jan/2025 14:13:46] "OPTIONS /chat HTTP/1.1" 200 -
+2025-01-09 14:13:50,028 - INFO - 127.0.0.1 - - [09/Jan/2025 14:13:50] "POST /chat HTTP/1.1" 200 -
+2025-01-09 14:13:58,365 - INFO - 127.0.0.1 - - [09/Jan/2025 14:13:58] "OPTIONS /chat HTTP/1.1" 200 -
+2025-01-09 14:14:02,246 - INFO - 127.0.0.1 - - [09/Jan/2025 14:14:02] "POST /chat HTTP/1.1" 200 -
+2025-01-09 14:14:22,267 - INFO - 127.0.0.1 - - [09/Jan/2025 14:14:22] "OPTIONS /chat HTTP/1.1" 200 -
+2025-01-09 14:14:25,995 - INFO - 127.0.0.1 - - [09/Jan/2025 14:14:25] "POST /chat HTTP/1.1" 200 -
+2025-01-09 14:14:33,372 - INFO - 127.0.0.1 - - [09/Jan/2025 14:14:33] "OPTIONS /chat HTTP/1.1" 200 -
+2025-01-09 14:14:37,247 - INFO - 127.0.0.1 - - [09/Jan/2025 14:14:37] "POST /chat HTTP/1.1" 200 -
+2025-01-09 14:15:10,257 - INFO - 127.0.0.1 - - [09/Jan/2025 14:15:10] "OPTIONS /chat HTTP/1.1" 200 -
+2025-01-09 14:15:11,105 - INFO - 127.0.0.1 - - [09/Jan/2025 14:15:11] "POST /chat HTTP/1.1" 200 -
+2025-01-09 14:15:39,673 - INFO - 127.0.0.1 - - [09/Jan/2025 14:15:39] "OPTIONS /chat HTTP/1.1" 200 -
+2025-01-09 14:15:43,720 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-09 14:16:12,699 - ERROR - API error 529: {"type":"error","error":{"type":"overloaded_error","message":"Overloaded"}}
+2025-01-09 14:16:12,700 - ERROR - Error calling Claude API: 529 Server Error:  for url: https://api.anthropic.com/v1/messages
+2025-01-09 14:16:15,141 - INFO - 127.0.0.1 - - [09/Jan/2025 14:16:15] "POST /chat HTTP/1.1" 200 -
+2025-01-09 14:17:01,730 - INFO - 127.0.0.1 - - [09/Jan/2025 14:17:01] "OPTIONS /chat HTTP/1.1" 200 -
+2025-01-09 14:17:05,026 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-09 14:18:26,843 - INFO - 127.0.0.1 - - [09/Jan/2025 14:18:26] "[36mGET / HTTP/1.1[0m" 304 -
+2025-01-09 14:18:26,925 - INFO - 127.0.0.1 - - [09/Jan/2025 14:18:26] "[36mGET /style.css HTTP/1.1[0m" 304 -
+2025-01-09 14:18:26,933 - INFO - 127.0.0.1 - - [09/Jan/2025 14:18:26] "[36mGET /script.js HTTP/1.1[0m" 304 -
+2025-01-09 14:18:27,472 - INFO - 127.0.0.1 - - [09/Jan/2025 14:18:27] "GET /health HTTP/1.1" 200 -
+2025-01-09 14:18:35,734 - INFO - 127.0.0.1 - - [09/Jan/2025 14:18:35] "OPTIONS /chat HTTP/1.1" 200 -
+2025-01-09 14:18:36,691 - INFO - 127.0.0.1 - - [09/Jan/2025 14:18:36] "POST /chat HTTP/1.1" 200 -
+2025-01-09 14:18:45,922 - INFO - 127.0.0.1 - - [09/Jan/2025 14:18:45] "OPTIONS /chat HTTP/1.1" 200 -
+2025-01-09 14:18:47,554 - INFO - 127.0.0.1 - - [09/Jan/2025 14:18:47] "POST /chat HTTP/1.1" 200 -
+2025-01-09 14:19:33,266 - INFO - 127.0.0.1 - - [09/Jan/2025 14:19:33] "OPTIONS /chat HTTP/1.1" 200 -
+2025-01-09 14:19:34,329 - INFO - 127.0.0.1 - - [09/Jan/2025 14:19:34] "POST /chat HTTP/1.1" 200 -
+2025-01-09 14:19:58,991 - INFO - 127.0.0.1 - - [09/Jan/2025 14:19:58] "OPTIONS /chat HTTP/1.1" 200 -
+2025-01-09 14:20:00,107 - INFO - 127.0.0.1 - - [09/Jan/2025 14:20:00] "POST /chat HTTP/1.1" 200 -
+2025-01-09 14:20:08,668 - INFO - 127.0.0.1 - - [09/Jan/2025 14:20:08] "OPTIONS /chat HTTP/1.1" 200 -
+2025-01-09 14:20:12,056 - INFO - 127.0.0.1 - - [09/Jan/2025 14:20:12] "POST /chat HTTP/1.1" 200 -
+2025-01-09 14:20:20,361 - INFO - 127.0.0.1 - - [09/Jan/2025 14:20:20] "OPTIONS /chat HTTP/1.1" 200 -
+2025-01-09 14:20:21,394 - INFO - 127.0.0.1 - - [09/Jan/2025 14:20:21] "POST /chat HTTP/1.1" 200 -
+2025-01-09 14:20:28,460 - INFO - 127.0.0.1 - - [09/Jan/2025 14:20:28] "OPTIONS /chat HTTP/1.1" 200 -
+2025-01-09 14:20:29,705 - INFO - 127.0.0.1 - - [09/Jan/2025 14:20:29] "POST /chat HTTP/1.1" 200 -
+2025-01-09 14:20:39,832 - INFO - 127.0.0.1 - - [09/Jan/2025 14:20:39] "OPTIONS /chat HTTP/1.1" 200 -
+2025-01-09 14:20:42,043 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-09 14:20:43,402 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-09 14:20:44,070 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-09 14:20:44,635 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-09 14:20:45,420 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-09 14:20:46,213 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-09 14:20:46,891 - INFO - 127.0.0.1 - - [09/Jan/2025 14:20:46] "POST /chat HTTP/1.1" 200 -
+2025-01-09 14:20:59,450 - INFO - 127.0.0.1 - - [09/Jan/2025 14:20:59] "OPTIONS /chat HTTP/1.1" 200 -
+2025-01-09 14:21:01,329 - INFO - 127.0.0.1 - - [09/Jan/2025 14:21:01] "POST /chat HTTP/1.1" 200 -
+2025-01-09 14:21:07,320 - INFO - 127.0.0.1 - - [09/Jan/2025 14:21:07] "POST /chat HTTP/1.1" 200 -
+2025-01-09 14:26:11,503 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.12:5000
+2025-01-09 14:26:11,505 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-09 14:28:50,541 - INFO - 127.0.0.1 - - [09/Jan/2025 14:28:50] "OPTIONS /chat HTTP/1.1" 200 -
+2025-01-09 14:28:51,545 - INFO - 127.0.0.1 - - [09/Jan/2025 14:28:51] "POST /chat HTTP/1.1" 200 -
+2025-01-09 14:29:02,581 - INFO - 127.0.0.1 - - [09/Jan/2025 14:29:02] "OPTIONS /chat HTTP/1.1" 200 -
+2025-01-09 14:29:03,440 - INFO - 127.0.0.1 - - [09/Jan/2025 14:29:03] "POST /chat HTTP/1.1" 200 -
+2025-01-09 14:29:16,589 - INFO - 127.0.0.1 - - [09/Jan/2025 14:29:16] "OPTIONS /chat HTTP/1.1" 200 -
+2025-01-09 14:29:21,477 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-09 14:29:25,884 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-09 14:29:30,092 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-09 14:29:32,119 - INFO - 127.0.0.1 - - [09/Jan/2025 14:29:32] "POST /chat HTTP/1.1" 200 -
+2025-01-09 14:29:43,906 - INFO - 127.0.0.1 - - [09/Jan/2025 14:29:43] "OPTIONS /chat HTTP/1.1" 200 -
+2025-01-09 14:29:44,670 - INFO - 127.0.0.1 - - [09/Jan/2025 14:29:44] "POST /chat HTTP/1.1" 200 -
+2025-01-09 14:29:55,380 - INFO - 127.0.0.1 - - [09/Jan/2025 14:29:55] "OPTIONS /chat HTTP/1.1" 200 -
+2025-01-09 14:29:56,396 - INFO - 127.0.0.1 - - [09/Jan/2025 14:29:56] "POST /chat HTTP/1.1" 200 -
+2025-01-09 14:30:21,853 - INFO - 127.0.0.1 - - [09/Jan/2025 14:30:21] "OPTIONS /chat HTTP/1.1" 200 -
+2025-01-09 14:30:25,298 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-09 14:30:26,771 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-09 14:30:28,259 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-09 14:30:30,093 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-09 14:30:31,299 - INFO - 127.0.0.1 - - [09/Jan/2025 14:30:31] "POST /chat HTTP/1.1" 200 -
+2025-01-09 14:31:13,203 - INFO - 127.0.0.1 - - [09/Jan/2025 14:31:13] "OPTIONS /chat HTTP/1.1" 200 -
+2025-01-09 14:31:17,197 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-09 14:31:18,875 - INFO - 127.0.0.1 - - [09/Jan/2025 14:31:18] "GET /health HTTP/1.1" 200 -
+2025-01-09 14:31:28,530 - INFO - 127.0.0.1 - - [09/Jan/2025 14:31:28] "POST /chat HTTP/1.1" 200 -
+2025-01-09 14:31:51,631 - INFO - 127.0.0.1 - - [09/Jan/2025 14:31:51] "OPTIONS /chat HTTP/1.1" 200 -
+2025-01-09 14:31:55,553 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-09 14:31:57,104 - INFO - 127.0.0.1 - - [09/Jan/2025 14:31:57] "GET /health HTTP/1.1" 200 -
+2025-01-09 14:32:04,567 - INFO - 127.0.0.1 - - [09/Jan/2025 14:32:04] "POST /chat HTTP/1.1" 200 -
+2025-01-09 14:32:55,006 - INFO - 127.0.0.1 - - [09/Jan/2025 14:32:55] "OPTIONS /chat HTTP/1.1" 200 -
+2025-01-09 14:32:56,182 - INFO - 127.0.0.1 - - [09/Jan/2025 14:32:56] "POST /chat HTTP/1.1" 200 -
+2025-01-09 14:33:03,610 - INFO - 127.0.0.1 - - [09/Jan/2025 14:33:03] "OPTIONS /chat HTTP/1.1" 200 -
+2025-01-09 14:33:05,399 - INFO - 127.0.0.1 - - [09/Jan/2025 14:33:05] "POST /chat HTTP/1.1" 200 -
+2025-01-09 14:33:17,631 - INFO - 127.0.0.1 - - [09/Jan/2025 14:33:17] "OPTIONS /chat HTTP/1.1" 200 -
+2025-01-09 14:33:20,575 - INFO - 127.0.0.1 - - [09/Jan/2025 14:33:20] "POST /chat HTTP/1.1" 200 -
+2025-01-09 14:33:26,534 - INFO - 127.0.0.1 - - [09/Jan/2025 14:33:26] "OPTIONS /chat HTTP/1.1" 200 -
+2025-01-09 14:33:28,038 - INFO - 127.0.0.1 - - [09/Jan/2025 14:33:28] "POST /chat HTTP/1.1" 200 -
+2025-01-09 14:33:46,442 - INFO - 127.0.0.1 - - [09/Jan/2025 14:33:46] "OPTIONS /chat HTTP/1.1" 200 -
+2025-01-09 14:33:53,210 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-09 14:33:53,457 - INFO - 127.0.0.1 - - [09/Jan/2025 14:33:53] "POST /chat HTTP/1.1" 200 -
+2025-01-09 14:33:54,099 - INFO - 127.0.0.1 - - [09/Jan/2025 14:33:54] "GET /health HTTP/1.1" 200 -
+2025-01-09 14:34:18,181 - INFO - 127.0.0.1 - - [09/Jan/2025 14:34:18] "OPTIONS /chat HTTP/1.1" 200 -
+2025-01-09 14:34:18,970 - INFO - 127.0.0.1 - - [09/Jan/2025 14:34:18] "POST /chat HTTP/1.1" 200 -
+2025-01-09 14:34:56,580 - INFO - 127.0.0.1 - - [09/Jan/2025 14:34:56] "GET /health HTTP/1.1" 200 -
+2025-01-09 14:34:57,324 - INFO - 127.0.0.1 - - [09/Jan/2025 14:34:57] "GET /health HTTP/1.1" 200 -
+2025-01-09 14:37:02,544 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.12:5000
+2025-01-09 14:37:02,547 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-09 14:37:12,723 - INFO - 127.0.0.1 - - [09/Jan/2025 14:37:12] "[33mGET /health HTTP/1.1[0m" 404 -
+2025-01-09 14:37:17,925 - INFO - 127.0.0.1 - - [09/Jan/2025 14:37:17] "OPTIONS /chat HTTP/1.1" 200 -
+2025-01-09 14:37:19,107 - INFO - 127.0.0.1 - - [09/Jan/2025 14:37:19] "POST /chat HTTP/1.1" 200 -
+2025-01-09 14:37:49,196 - INFO - 127.0.0.1 - - [09/Jan/2025 14:37:49] "GET / HTTP/1.1" 200 -
+2025-01-09 14:37:49,821 - INFO - 127.0.0.1 - - [09/Jan/2025 14:37:49] "[36mGET /style.css HTTP/1.1[0m" 304 -
+2025-01-09 14:37:49,842 - INFO - 127.0.0.1 - - [09/Jan/2025 14:37:49] "[36mGET /script.js HTTP/1.1[0m" 304 -
+2025-01-09 14:37:51,236 - INFO - 127.0.0.1 - - [09/Jan/2025 14:37:51] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-01-09 14:37:51,404 - INFO - 127.0.0.1 - - [09/Jan/2025 14:37:51] "[33mGET /health HTTP/1.1[0m" 404 -
+2025-01-09 14:37:56,204 - INFO - 127.0.0.1 - - [09/Jan/2025 14:37:56] "OPTIONS /chat HTTP/1.1" 200 -
+2025-01-09 14:37:57,018 - INFO - 127.0.0.1 - - [09/Jan/2025 14:37:57] "POST /chat HTTP/1.1" 200 -
+2025-01-09 14:39:05,222 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.12:5000
+2025-01-09 14:39:05,223 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-09 14:39:09,371 - INFO - 127.0.0.1 - - [09/Jan/2025 14:39:09] "[36mGET / HTTP/1.1[0m" 304 -
+2025-01-09 14:39:09,618 - INFO - 127.0.0.1 - - [09/Jan/2025 14:39:09] "[36mGET /style.css HTTP/1.1[0m" 304 -
+2025-01-09 14:39:09,651 - INFO - 127.0.0.1 - - [09/Jan/2025 14:39:09] "[36mGET /script.js HTTP/1.1[0m" 304 -
+2025-01-09 14:39:10,202 - INFO - 127.0.0.1 - - [09/Jan/2025 14:39:10] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-01-09 14:39:10,429 - INFO - 127.0.0.1 - - [09/Jan/2025 14:39:10] "[33mGET /health HTTP/1.1[0m" 404 -
+2025-01-09 14:39:16,059 - INFO - 127.0.0.1 - - [09/Jan/2025 14:39:16] "OPTIONS /chat HTTP/1.1" 200 -
+2025-01-09 14:39:17,495 - INFO - 127.0.0.1 - - [09/Jan/2025 14:39:17] "POST /chat HTTP/1.1" 200 -
+2025-01-09 14:39:21,771 - INFO - 127.0.0.1 - - [09/Jan/2025 14:39:21] "OPTIONS /chat HTTP/1.1" 200 -
+2025-01-09 14:39:22,756 - INFO - 127.0.0.1 - - [09/Jan/2025 14:39:22] "POST /chat HTTP/1.1" 200 -
+2025-01-09 14:39:29,432 - INFO - 127.0.0.1 - - [09/Jan/2025 14:39:29] "OPTIONS /chat HTTP/1.1" 200 -
+2025-01-09 14:39:30,574 - INFO - 127.0.0.1 - - [09/Jan/2025 14:39:30] "POST /chat HTTP/1.1" 200 -
+2025-01-09 14:39:51,463 - INFO - 127.0.0.1 - - [09/Jan/2025 14:39:51] "OPTIONS /chat HTTP/1.1" 200 -
+2025-01-09 14:39:56,129 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-09 14:40:05,662 - ERROR - API error 400: {"type":"error","error":{"type":"invalid_request_error","message":"prompt is too long: 223460 tokens > 200000 maximum"}}
+2025-01-09 14:40:05,663 - ERROR - Error calling Claude API: 400 Client Error: Bad Request for url: https://api.anthropic.com/v1/messages
+2025-01-09 14:40:07,182 - ERROR - API error 400: {"type":"error","error":{"type":"invalid_request_error","message":"prompt is too long: 223460 tokens > 200000 maximum"}}
+2025-01-09 14:40:07,183 - ERROR - Error calling Claude API: 400 Client Error: Bad Request for url: https://api.anthropic.com/v1/messages
+2025-01-09 14:40:08,957 - ERROR - API error 400: {"type":"error","error":{"type":"invalid_request_error","message":"prompt is too long: 223460 tokens > 200000 maximum"}}
+2025-01-09 14:40:08,958 - ERROR - Error calling Claude API: 400 Client Error: Bad Request for url: https://api.anthropic.com/v1/messages
+2025-01-09 14:40:08,958 - ERROR - Error in attempt 1: 400 Client Error: Bad Request for url: https://api.anthropic.com/v1/messages
+2025-01-09 14:40:13,302 - WARNING - Attempt 2 failed: Traceback (most recent call last):
+  File "C:\Users\harsh\AppData\Local\Temp\tmps2ncklme\analysis.py", line 29, in <module>
+    print(json.dumps(output, indent=2))
+          ~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\harsh\anaconda3\envs\deepgram_agent\Lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ~~~~~~^^^^^
+  File "C:\Users\harsh\anaconda3\envs\deepgram_agent\Lib\json\encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\harsh\anaconda3\envs\deepgram_agent\Lib\json\encoder.py", line 261, in iterencode
+    return _iterencode(o, 0)
+TypeError: keys must be str, int, float, bool or None, not datetime.date
+
+2025-01-09 14:40:19,714 - INFO - 127.0.0.1 - - [09/Jan/2025 14:40:19] "POST /chat HTTP/1.1" 200 -
+2025-01-09 14:40:58,030 - INFO - 127.0.0.1 - - [09/Jan/2025 14:40:58] "OPTIONS /chat HTTP/1.1" 200 -
+2025-01-09 14:41:03,261 - INFO - 127.0.0.1 - - [09/Jan/2025 14:41:03] "POST /chat HTTP/1.1" 200 -
+2025-01-09 14:41:43,167 - INFO - 127.0.0.1 - - [09/Jan/2025 14:41:43] "OPTIONS /chat HTTP/1.1" 200 -
+2025-01-09 14:41:43,972 - INFO - 127.0.0.1 - - [09/Jan/2025 14:41:43] "POST /chat HTTP/1.1" 200 -
+2025-01-09 14:41:47,602 - INFO - 127.0.0.1 - - [09/Jan/2025 14:41:47] "POST /chat HTTP/1.1" 200 -
+2025-01-09 14:42:01,406 - INFO - 127.0.0.1 - - [09/Jan/2025 14:42:01] "OPTIONS /chat HTTP/1.1" 200 -
+2025-01-09 14:42:06,012 - INFO - 127.0.0.1 - - [09/Jan/2025 14:42:06] "POST /chat HTTP/1.1" 200 -
+2025-01-09 14:42:26,767 - INFO - 127.0.0.1 - - [09/Jan/2025 14:42:26] "OPTIONS /chat HTTP/1.1" 200 -
+2025-01-09 14:42:27,670 - INFO - 127.0.0.1 - - [09/Jan/2025 14:42:27] "POST /chat HTTP/1.1" 200 -
+2025-01-09 14:42:49,827 - INFO - 127.0.0.1 - - [09/Jan/2025 14:42:49] "OPTIONS /chat HTTP/1.1" 200 -
+2025-01-09 14:42:54,163 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-09 14:43:04,105 - INFO - 127.0.0.1 - - [09/Jan/2025 14:43:04] "POST /chat HTTP/1.1" 200 -
+2025-01-09 14:43:22,931 - INFO - 127.0.0.1 - - [09/Jan/2025 14:43:22] "OPTIONS /chat HTTP/1.1" 200 -
+2025-01-09 14:43:26,133 - INFO - 127.0.0.1 - - [09/Jan/2025 14:43:26] "POST /chat HTTP/1.1" 200 -
+2025-01-09 14:44:16,963 - INFO - 127.0.0.1 - - [09/Jan/2025 14:44:16] "OPTIONS /chat HTTP/1.1" 200 -
+2025-01-09 14:44:21,253 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-09 14:44:27,151 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-09 14:44:31,945 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-09 14:44:33,958 - INFO - 127.0.0.1 - - [09/Jan/2025 14:44:33] "POST /chat HTTP/1.1" 200 -
+2025-01-09 14:44:41,483 - INFO - 127.0.0.1 - - [09/Jan/2025 14:44:41] "OPTIONS /chat HTTP/1.1" 200 -
+2025-01-09 14:44:42,353 - INFO - 127.0.0.1 - - [09/Jan/2025 14:44:42] "POST /chat HTTP/1.1" 200 -
+2025-01-09 14:44:56,591 - INFO - 127.0.0.1 - - [09/Jan/2025 14:44:56] "OPTIONS /chat HTTP/1.1" 200 -
+2025-01-09 14:45:01,467 - INFO - 127.0.0.1 - - [09/Jan/2025 14:45:01] "POST /chat HTTP/1.1" 200 -
+2025-01-09 14:45:15,134 - INFO - 127.0.0.1 - - [09/Jan/2025 14:45:15] "OPTIONS /chat HTTP/1.1" 200 -
+2025-01-09 14:45:18,589 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-09 14:45:32,683 - INFO - 127.0.0.1 - - [09/Jan/2025 14:45:32] "POST /chat HTTP/1.1" 200 -
+2025-01-09 14:46:20,567 - INFO - 127.0.0.1 - - [09/Jan/2025 14:46:20] "OPTIONS /chat HTTP/1.1" 200 -
+2025-01-09 14:46:25,021 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-09 14:46:35,921 - INFO - 127.0.0.1 - - [09/Jan/2025 14:46:35] "POST /chat HTTP/1.1" 200 -
+2025-01-09 14:47:06,247 - INFO - 127.0.0.1 - - [09/Jan/2025 14:47:06] "OPTIONS /chat HTTP/1.1" 200 -
+2025-01-09 14:47:11,974 - INFO - 127.0.0.1 - - [09/Jan/2025 14:47:11] "POST /chat HTTP/1.1" 200 -
+2025-01-09 14:47:25,880 - INFO - 127.0.0.1 - - [09/Jan/2025 14:47:25] "OPTIONS /chat HTTP/1.1" 200 -
+2025-01-09 14:47:29,398 - INFO - 127.0.0.1 - - [09/Jan/2025 14:47:29] "POST /chat HTTP/1.1" 200 -
+2025-01-09 14:47:42,337 - INFO - 127.0.0.1 - - [09/Jan/2025 14:47:42] "OPTIONS /chat HTTP/1.1" 200 -
+2025-01-09 14:47:43,635 - INFO - 127.0.0.1 - - [09/Jan/2025 14:47:43] "POST /chat HTTP/1.1" 200 -
+2025-01-20 11:03:29,281 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.12:5000
+2025-01-20 11:03:29,282 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-20 11:03:38,242 - INFO - 127.0.0.1 - - [20/Jan/2025 11:03:38] "[36mGET / HTTP/1.1[0m" 304 -
+2025-01-20 11:03:38,684 - INFO - 127.0.0.1 - - [20/Jan/2025 11:03:38] "[36mGET /style.css HTTP/1.1[0m" 304 -
+2025-01-20 11:03:38,786 - INFO - 127.0.0.1 - - [20/Jan/2025 11:03:38] "[36mGET /script.js HTTP/1.1[0m" 304 -
+2025-01-20 11:03:40,311 - INFO - 127.0.0.1 - - [20/Jan/2025 11:03:40] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-01-20 11:03:40,368 - INFO - 127.0.0.1 - - [20/Jan/2025 11:03:40] "[33mGET /health HTTP/1.1[0m" 404 -
+2025-01-20 11:04:26,277 - INFO - 127.0.0.1 - - [20/Jan/2025 11:04:26] "[36mGET / HTTP/1.1[0m" 304 -
+2025-01-20 11:04:26,344 - INFO - 127.0.0.1 - - [20/Jan/2025 11:04:26] "[36mGET /style.css HTTP/1.1[0m" 304 -
+2025-01-20 11:04:26,358 - INFO - 127.0.0.1 - - [20/Jan/2025 11:04:26] "GET /script.js HTTP/1.1" 200 -
+2025-01-20 11:04:26,717 - INFO - 127.0.0.1 - - [20/Jan/2025 11:04:26] "[33mGET /health HTTP/1.1[0m" 404 -
+2025-01-20 11:04:36,498 - INFO - 127.0.0.1 - - [20/Jan/2025 11:04:36] "OPTIONS /chat HTTP/1.1" 200 -
+2025-01-20 11:04:37,483 - INFO - 127.0.0.1 - - [20/Jan/2025 11:04:37] "POST /chat HTTP/1.1" 200 -
+2025-01-20 11:04:56,965 - INFO - 127.0.0.1 - - [20/Jan/2025 11:04:56] "OPTIONS /chat HTTP/1.1" 200 -
+2025-01-20 11:04:57,854 - INFO - 127.0.0.1 - - [20/Jan/2025 11:04:57] "POST /chat HTTP/1.1" 200 -
+2025-01-20 11:05:18,229 - INFO - 127.0.0.1 - - [20/Jan/2025 11:05:18] "OPTIONS /chat HTTP/1.1" 200 -
+2025-01-20 11:05:23,084 - INFO - 127.0.0.1 - - [20/Jan/2025 11:05:23] "POST /chat HTTP/1.1" 200 -
+2025-01-20 11:06:04,157 - INFO - 127.0.0.1 - - [20/Jan/2025 11:06:04] "GET / HTTP/1.1" 200 -
+2025-01-20 11:06:04,199 - INFO - 127.0.0.1 - - [20/Jan/2025 11:06:04] "[36mGET /style.css HTTP/1.1[0m" 304 -
+2025-01-20 11:06:04,210 - INFO - 127.0.0.1 - - [20/Jan/2025 11:06:04] "[36mGET /script.js HTTP/1.1[0m" 304 -
+2025-01-20 11:06:04,572 - INFO - 127.0.0.1 - - [20/Jan/2025 11:06:04] "[33mGET /health HTTP/1.1[0m" 404 -
+2025-01-20 11:08:06,190 - INFO - 127.0.0.1 - - [20/Jan/2025 11:08:06] "[36mGET / HTTP/1.1[0m" 304 -
+2025-01-20 11:08:06,256 - INFO - 127.0.0.1 - - [20/Jan/2025 11:08:06] "[36mGET /style.css HTTP/1.1[0m" 304 -
+2025-01-20 11:08:06,270 - INFO - 127.0.0.1 - - [20/Jan/2025 11:08:06] "GET /script.js HTTP/1.1" 200 -
+2025-01-20 11:08:06,676 - INFO - 127.0.0.1 - - [20/Jan/2025 11:08:06] "[33mGET /health HTTP/1.1[0m" 404 -
+2025-01-20 11:08:25,486 - INFO - 127.0.0.1 - - [20/Jan/2025 11:08:25] "OPTIONS /chat HTTP/1.1" 200 -
+2025-01-20 11:08:31,247 - INFO - 127.0.0.1 - - [20/Jan/2025 11:08:31] "POST /chat HTTP/1.1" 200 -
+2025-01-20 11:09:33,302 - INFO - 127.0.0.1 - - [20/Jan/2025 11:09:33] "[36mGET / HTTP/1.1[0m" 304 -
+2025-01-20 11:09:33,371 - INFO - 127.0.0.1 - - [20/Jan/2025 11:09:33] "GET /style.css HTTP/1.1" 200 -
+2025-01-20 11:09:33,376 - INFO - 127.0.0.1 - - [20/Jan/2025 11:09:33] "GET /script.js HTTP/1.1" 200 -
+2025-01-20 11:09:33,894 - INFO - 127.0.0.1 - - [20/Jan/2025 11:09:33] "[33mGET /health HTTP/1.1[0m" 404 -
+2025-01-20 11:12:16,280 - INFO - 127.0.0.1 - - [20/Jan/2025 11:12:16] "[36mGET / HTTP/1.1[0m" 304 -
+2025-01-20 11:12:16,348 - INFO - 127.0.0.1 - - [20/Jan/2025 11:12:16] "GET /style.css HTTP/1.1" 200 -
+2025-01-20 11:12:16,365 - INFO - 127.0.0.1 - - [20/Jan/2025 11:12:16] "[36mGET /script.js HTTP/1.1[0m" 304 -
+2025-01-20 11:12:16,942 - INFO - 127.0.0.1 - - [20/Jan/2025 11:12:16] "[33mGET /health HTTP/1.1[0m" 404 -
+2025-01-20 11:12:50,156 - INFO - 127.0.0.1 - - [20/Jan/2025 11:12:50] "OPTIONS /chat HTTP/1.1" 200 -
+2025-01-20 11:12:51,875 - INFO - 127.0.0.1 - - [20/Jan/2025 11:12:51] "POST /chat HTTP/1.1" 200 -
+2025-01-20 11:13:00,304 - INFO - 127.0.0.1 - - [20/Jan/2025 11:13:00] "OPTIONS /chat HTTP/1.1" 200 -
+2025-01-20 11:13:03,630 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-20 11:13:04,773 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-20 11:13:05,670 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-20 11:13:07,485 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-20 11:13:08,466 - INFO - 127.0.0.1 - - [20/Jan/2025 11:13:08] "POST /chat HTTP/1.1" 200 -
+2025-01-20 11:13:31,469 - INFO - 127.0.0.1 - - [20/Jan/2025 11:13:31] "OPTIONS /chat HTTP/1.1" 200 -
+2025-01-20 11:13:32,436 - INFO - 127.0.0.1 - - [20/Jan/2025 11:13:32] "POST /chat HTTP/1.1" 200 -
+2025-01-20 11:13:41,252 - INFO - 127.0.0.1 - - [20/Jan/2025 11:13:41] "OPTIONS /chat HTTP/1.1" 200 -
+2025-01-20 11:13:42,313 - INFO - 127.0.0.1 - - [20/Jan/2025 11:13:42] "POST /chat HTTP/1.1" 200 -
