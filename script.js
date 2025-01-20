@@ -213,43 +213,41 @@ document.addEventListener('DOMContentLoaded', () => {
     // Server Communication
     async function sendMessage() {
         if (isProcessing) return;
-
+    
         const message = messageInput.value.trim();
         if (!message) return;
-
+    
+        // Display the user's message in the chat immediately
+        addMessage(message, true);
+    
         try {
             setProcessingState(true);
             
-            // Use relative URL that will work in both development and production
             const response = await fetch('/chat', {
                 method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json'
-                },
+                headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ message })
             });
-
+    
             if (!response.ok) {
                 throw new Error(`HTTP error! status: ${response.status}`);
             }
-
+    
             const data = await response.json();
-            
-            // Add assistant's response to chat
-            if (data.response) {
-                // Add small delay for natural feel
-                await new Promise(resolve => setTimeout(resolve, 300));
-                addMessage(data.response, false);
+    
+            if (data.error) {
+                addMessage("Error: " + data.error, false);
             } else {
-                addMessage('Sorry, I encountered an error processing your request.', false);
+                addMessage(data.response, false); // Display assistant's response
             }
-
         } catch (error) {
-            console.error('Error:', error);
-            addMessage('Sorry, I encountered a network error. Please try again.', false);
+            console.error("Error:", error);
+            addMessage("Sorry, I encountered a network error. Please try again.", false);
         } finally {
             setProcessingState(false);
         }
+    
+        resetTextarea(); // Clear input field after sending
     }
 
     async function checkConnection() {
