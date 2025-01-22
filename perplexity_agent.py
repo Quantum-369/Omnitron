@@ -6,7 +6,7 @@ class PerplexityAI:
         self.api_key = api_key or os.getenv("PERPLEXITY_API_KEY")
         self.endpoint = endpoint
 
-    def query(self, question: str, model: str = "llama-3.1-sonar-small-128k-online"):
+    def query(self, question: str, model: str = "sonar-pro"):
         """Send a query to Perplexity AI and fetch the response."""
         headers = {
             "Authorization": f"Bearer {self.api_key}",
